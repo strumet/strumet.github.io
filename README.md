@@ -1,4 +1,4 @@
-# Strumenti e metodi dello spazio
+# Strumenti e metodi del progetto
 *A.A. 2018-2019   
 sez. I2*
 
