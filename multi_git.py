@@ -128,7 +128,7 @@ RAW_PR = sys.argv[2:]
 NESTED_PR = [get_format(i) for i in RAW_PR]
 PR = [item for sublist in NESTED_PR for item in sublist]
 ## Get students data to prepare mail
-STUDENTS_FILE = '/home/mf/Documents/uni/strumod/documents/status.csv'
+STUDENTS_FILE = '/home/mf/Documents/uni/strumet/documents/status.csv'
 STUD_LIST = [l.split(';') for l in 
         open(STUDENTS_FILE, encoding="ISO-8859-1").read().split('\n')]
 STUD_DICT = {l[0]: l[1:4] for l in 
