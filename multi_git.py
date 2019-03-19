@@ -108,7 +108,6 @@ act_dict = {
 get_range = lambda li: [val for val in range(li[0], li[1]+1)]
 get_format = lambda x: get_range(list(map(int, x.split('-')))) if '-' in x \
         else map(int, x.split(',')) 
-get_path_index = lambda x: x.rindex('/') + 1 if '/' in x else 1
 get_path_url = lambda p: " pubblicata all'indirizzo " + act_dict[p]['url'] \
         if p in act_dict else '.'
 ## Create mail to send in case of errors
@@ -157,6 +156,7 @@ def main():
         ## Check formal correctness
         if CMD == 'diff':
             reports[str(i)] = []
+            directories = [f for f in act_dict]
             ## Get filenames from diff output
             files = list(map(lambda x: x[:x.index('|')].strip(),
                 cmd.stdout.strip().strip().split('\n')[:-1]))
@@ -164,8 +164,13 @@ def main():
                 if f.startswith('exams'):
                     print(f,)
                     cmd = subprocess.run(commands['show'](i, f), shell=True)
-                path = f[:get_path_index(f)]
-                filename = f[get_path_index(f):].replace('_', '-')
+                for d in directories:
+                    if d in f:
+                        path = d
+                        break
+                    else:
+                        path = ''
+                filename = f[len(path):].replace('_', '-')
                 if len(filename) > 0 and (path not in act_dict or
                         not act_dict[path]['regex'].search(filename)):
                     reports[str(i)].append(f)
