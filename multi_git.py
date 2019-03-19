@@ -47,7 +47,7 @@ act_dict = {
             'url': 'https://github.com/strumet/modeling/tree/master/' + \
                     'activities/0#activity-0'},
         'activities/1/': {
-            'regex': re.compile('^\d{6}[-_]0[1-3][ABC]\.obj$', re.IGNORECASE),
+            'regex': re.compile('^\d{6}\/', re.IGNORECASE),
             'url': 'https://github.com/strumet/modeling/tree/master/' + \
                     'activities/1#activity-1'},
         'activities/2/': {
