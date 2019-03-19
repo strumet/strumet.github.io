@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+#container{
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#header{
+  background-color:#008080;
+  text-align: center;
+  height:50px;
+  width:auto;
+  float:center;
+}
+#content{
+  background-color:#c0c0c0;
+  height:auto;
+  width:auto;
+  float:left;
+}
+img{
+  float: right;
+  padding: 80px;
+}
