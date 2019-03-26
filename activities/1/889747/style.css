@@ -1,0 +1,52 @@
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center
+}
+
+#banner {
+  background-image: url("889747.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+
+#link {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+h1 {
+    color: black;
+    font-family: Monospace;
+    font-size: 60px;
+    text-align:center;
+    text-shadow: 2px 2px 20px white;
+    margin-top: 50px;
+}
+
+ p {
+   color: #FFFFFF;
+   font-family: Monospace;
+   font-size: 20px;
+   text-align:center;
+ }
+
+a {
+  color: #FFFFFF;
+  font-family: Monospace;
+  font-size: 15px;
+  text-align:center;
+}
+
+.MyButton {
+  margin-top: 20px;
+}
