@@ -22,7 +22,7 @@ della cellula (travi e pilastri) dovranno essere evidenziati attraverso
 il tracciamento dei relativi contorni ed una differente campitura come
 rappresentato nell'immagine seguente
 
-![base_50](https://raw.githubusercontent.com/strumet/strumet.github.io/master/archive/base_50.png) 
+![base__50](https://raw.githubusercontent.com/strumet/strumet.github.io/master/archive/base__50.png) 
 
 La tavola dovrà essere salvata in **formato pdf** e **nominata nella forma
 NUMEROMATRICOLA.pdf** (ad esempio: *854741.pdf*).   
