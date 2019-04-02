@@ -40,68 +40,66 @@ import sys
 import subprocess, shlex
 import re
 
+base_url='https://github.com/strumet/strumet.github.io/tree/master/'
+
 ## Formal rules
 act_dict = {
         'activities/0/': {
             'regex': re.compile('^\d{6}\.(jpg|png|jpeg)$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'activities/0#activity-0'},
+            'url': base_url + 'activities/0#activity-0'},
         'activities/1/': {
             'regex': re.compile('^\d{6}\/', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'activities/1#activity-1'},
+            'url': base_url + 'activities/1#activity-1'},
         'activities/2/': {
-            'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'activities/2#activity-2'},
+            'regex': re.compile('^\d{6}\.(pdf|PDF|)$', re.IGNORECASE),
+            'url': base_url + 'activities/2#activity-2'},
         'activities/3/': {
-            'regex': re.compile('^\d{6}[-_][ABCF](-LP)?\.obj$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'activities/3#activity-3'},
-        'activities/4/': {
-            'regex': re.compile('^\d{6}[-_][RP](-LP)?\.obj$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'activities/4#activity-4'},
-        'activities/5/': {
-            'regex': re.compile('^\d{6}(-LP)?\.obj$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'activities/5#activity-5'},
-        'activities/6/': {
-            'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'activities/6#activity-6'},
-        'activities/7/': {
-            'regex': re.compile('^\d{6}[-_][ABC](-LP)?\.png$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'activities/7#activity-7'},
-        'activities/9/': {
-            'regex': re.compile('^\d{6}[^\s]*\..*$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'activities/9#activity-9'},
-        'exercises/': {
-            'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'exercises#exercises'},
-        'midterm_1/': {
-            'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'midterm_1#first-midterm'},
-        'midterm_2/': {
-            'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'midterm_2#second-midterm'},
-        'midterm_1/update/': {
-            'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'midterm_1_update#first-midterm-update'},
-        'midterm_2/update/': {
-            'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'midterm_2_update#second-midterm-udpate'},
-        'exams/': {
-            'regex': re.compile('^\d{6}[-_][12]([_-]LP)?\.png$', re.IGNORECASE),
-            'url': 'https://github.com/strumet/modeling/tree/master/' + \
-                    'exams#final-exam'},
+            'regex': re.compile('^\d{6}\.(ifc|IFC|pdf|PDF|)$', re.IGNORECASE),
+            'url': base_url + 'activities/3#activity-3'},
+        #'activities/4/': {
+        #    'regex': re.compile('^\d{6}[-_][RP](-LP)?\.obj$', re.IGNORECASE),
+        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
+        #            'activities/4#activity-4'},
+        #'activities/5/': {
+        #    'regex': re.compile('^\d{6}(-LP)?\.obj$', re.IGNORECASE),
+        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
+        #            'activities/5#activity-5'},
+        #'activities/6/': {
+        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
+        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
+        #            'activities/6#activity-6'},
+        #'activities/7/': {
+        #    'regex': re.compile('^\d{6}[-_][ABC](-LP)?\.png$', re.IGNORECASE),
+        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
+        #            'activities/7#activity-7'},
+        #'activities/9/': {
+        #    'regex': re.compile('^\d{6}[^\s]*\..*$', re.IGNORECASE),
+        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
+        #            'activities/9#activity-9'},
+        #'exercises/': {
+        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
+        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
+        #            'exercises#exercises'},
+        #'midterm_1/': {
+        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
+        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
+        #            'midterm_1#first-midterm'},
+        #'midterm_2/': {
+        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
+        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
+        #            'midterm_2#second-midterm'},
+        #'midterm_1/update/': {
+        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
+        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
+        #            'midterm_1_update#first-midterm-update'},
+        #'midterm_2/update/': {
+        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
+        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
+        #            'midterm_2_update#second-midterm-udpate'},
+        #'exams/': {
+        #    'regex': re.compile('^\d{6}[-_][12]([_-]LP)?\.png$', re.IGNORECASE),
+        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
+        #            'exams#final-exam'},
         }
 
 ## Functions
