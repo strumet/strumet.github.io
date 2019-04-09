@@ -1,0 +1,55 @@
+@font-face {
+font-family: "myriad pro";
+src: url("MyriadPro-regular.otf");
+}
+
+#titolo{
+  font-family: 'myriad pro';
+}
+
+#description {
+  font-family: 'myriad pro';
+  font-size: 100%;
+}
+#titoletto {
+  font-family: 'myriad pro';
+  font-size: 150%;
+}
+
+#links{
+  font-family: 'myriad pro';
+  font-size: 120%;
+}
+#container{
+  display: flex;
+  justify-content: space-between;
+}
+#katana{
+  width: 625px;
+}
+#main_container{
+  display: flex;
+}
+#left{
+  width: 17.5%;
+  background-color: #ddd;
+}
+#right{
+  width: 17.5%;
+  height: 100%;
+  background-color: #ddd;
+}
+#content{
+  width: 75%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a:link , a:visited{
+  text-decoration: none;
+  color: black;
+}
+a:hover , a:active{
+  text-decoration: none;
+  color: #6e6e6e;
+}
