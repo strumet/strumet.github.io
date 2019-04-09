@@ -1,0 +1,165 @@
+<html>
+<head>
+  <title>Fiumara d'arte</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel='icon' href='https://northeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=ico&cs=fFNQTw&docid=https%3A%2F%2Fpolimi365-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!ZFbG7bz470uDaD_GfWkM478uDQJCV9pCljvv-vjxEDNCpFfmyHFvQJOYgG4l3dqG%2Fitems%2F01KCODENFWVV76W6PRHBDIY6X67QTK3NUG%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvcG9saW1pMzY1LW15LnNoYXJlcG9pbnQuY29tQDBhMTc3MTJiLTZkZjMtNDI1ZC04MDhlLTMwOWRmMjhhNWVlYiIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NTE0NTc2NzUiLCJleHAiOiIxNTUxNDc5Mjc1IiwiZW5kcG9pbnR1cmwiOiJveUJGWXBDa3RCODJKZ3FDSlRlTnZkbUZUbU5kRE1pM29kMlRHdUhTbHhjPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJNalJqTkdNME9XVXRNekF5TWkwNE1EQXdMVEV6TW1ZdE1qVXdaV0kxTW1Ka09HSXoiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWldSak5qVTJOalF0WmpoaVl5MDBZbVZtTFRnek5qZ3RNMlpqTmpka05qa3dZMlV6Iiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHwxMDY0OTg3MEBwb2xpbWkuaXQiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsImlzdXNlciI6InRydWUiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzM2ZmZmE2OWY5Nzc0QGxpdmUuY29tIiwidHQiOiIwIiwidXNlUGVyc2lzdGVudENvb2tpZSI6IjMifQ.YzY0M2lCL2tDMjUxYVlwQWdoY1cxUTQrNDN1bW52OWtoWnlsazRGWjJGYz0&encodeFailures=1&width=1920&height=833&srcWidth=&srcHeight='>
+</head>
+
+
+
+<body>
+<body bgcolor="#e8e2db">
+<div id="first_div">
+ <h1>FIUMARA D'ARTE</h1>
+     <p id="first_p">La Fiumara d'arte è un museo all'aperto costituito da una serie di sculture di artisti contemporanei
+  ubicate lungo gli argini del fiume Tusa,
+  oggi a carattere torrentizio, che sfocia nella costa tirrenica della Sicilia <br>nei pressi di Castel di Tusa,
+  frazione del comune di <a href="https://it.wikipedia.org/wiki/Tusa">Tusa</a>,
+  e che anticamente scorreva tra i monti Nebrodi con un percorso di ventuno chilometri,
+  fino all'antica città di Halaesa.<br>La fiumara nacque quando nel 1982 <a href="https://it.wikipedia.org/wiki/Antonio_Presti">Antonio Presti</a> commissionò a Pietro Consagra la scultura
+  La materia poteva non esserci, realizzata nel 1986 in cemento armato e alta diciotto metri, in memoria del padre.<br>
+  Nel corso degli anni il progetto si andò sviluppando ed ha trasformato la zona lungo la fiumara di Tusa in un parco di sculture noto
+  anche al di fuori dei confini nazionali.</p></div id="first_div">
+
+  <center>
+  <img id="mappa" src="https://northeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2Fpolimi365-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!ZFbG7bz470uDaD_GfWkM478uDQJCV9pCljvv-vjxEDNCpFfmyHFvQJOYgG4l3dqG%2Fitems%2F01KCODENFSU55UXBI6I5FL5GBZDETN6PQB%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvcG9saW1pMzY1LW15LnNoYXJlcG9pbnQuY29tQDBhMTc3MTJiLTZkZjMtNDI1ZC04MDhlLTMwOWRmMjhhNWVlYiIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NTExOTc0NDciLCJleHAiOiIxNTUxMjE5MDQ3IiwiZW5kcG9pbnR1cmwiOiJveUJGWXBDa3RCODJKZ3FDSlRlTnZkbUZUbU5kRE1pM29kMlRHdUhTbHhjPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJaamRqWW1Nek9XVXRPREJsTmkwNE1EQXdMVEV5T0dRdFl6UTBPRGhqTlRBM09URXciLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWldSak5qVTJOalF0WmpoaVl5MDBZbVZtTFRnek5qZ3RNMlpqTmpka05qa3dZMlV6Iiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHwxMDY0OTg3MEBwb2xpbWkuaXQiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsImlzdXNlciI6InRydWUiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzM2ZmZmE2OWY5Nzc0QGxpdmUuY29tIiwidHQiOiIwIiwidXNlUGVyc2lzdGVudENvb2tpZSI6IjMifQ.eHBuVGpzZXJwMzFLbFpvQy9TQWowMFBYOEJPazdEengzQUpoUTF5TkNvcz0&encodeFailures=1&width=1920&height=894&srcWidth=&srcHeight=">
+</img>
+</center>
+
+  <p>Tra le opere più interessanti che compongono questa particolare tipologia di museo ricordiamo: <br>
+  <ol>
+  <li><em class="bold_em">Monumento per un poeta morto</emphasis> di <a href="https://it.wikipedia.org/wiki/Tano_Festa">Tano Festa</a> <br> </li>
+  <li><em class="bold_em">Il Labirinto di Arianna</emphasis> di <a href="http://www.italolanfredini.it/biografia-3/">Italo Landfredini</a> <br></li>
+  <li><em class="bold_em">Piramide al 38 parallelo</emphasis> di <a href="https://it.wikipedia.org/wiki/Mauro_Staccioli">Mauro Staccioli<a> <br></li>
+  </ol>
+  </p>
+
+<h2><emphasis>1-Monumento per un poeta morto</emphasis> (o <emphasis>Finestra sul mare</emphasis>)</h2>
+
+  <center>
+  <img src="https://northeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2Fpolimi365-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!ZFbG7bz470uDaD_GfWkM478uDQJCV9pCljvv-vjxEDNCpFfmyHFvQJOYgG4l3dqG%2Fitems%2F01KCODENE4IWLXRRMV3BE2HKC3OCNG5UUW%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvcG9saW1pMzY1LW15LnNoYXJlcG9pbnQuY29tQDBhMTc3MTJiLTZkZjMtNDI1ZC04MDhlLTMwOWRmMjhhNWVlYiIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NTExOTM0OTMiLCJleHAiOiIxNTUxMjE1MDkzIiwiZW5kcG9pbnR1cmwiOiJveUJGWXBDa3RCODJKZ3FDSlRlTnZkbUZUbU5kRE1pM29kMlRHdUhTbHhjPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJNekpqT0dNek9XVXROekEzTnkwNE1EQXdMVEV6TW1ZdE1tVmpaakF6T0dZNU1HRTEiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWldSak5qVTJOalF0WmpoaVl5MDBZbVZtTFRnek5qZ3RNMlpqTmpka05qa3dZMlV6Iiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHwxMDY0OTg3MEBwb2xpbWkuaXQiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsImlzdXNlciI6InRydWUiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzM2ZmZmE2OWY5Nzc0QGxpdmUuY29tIiwidHQiOiIwIiwidXNlUGVyc2lzdGVudENvb2tpZSI6IjMifQ.eHdDemJzRHdyRGY5WElrckFPaEQrdzRQZDB3V3ltVUN4WVZjVXZiMlV3UT0&encodeFailures=1&width=1920&height=894&srcWidth=&srcHeight=">
+  </center>
+
+  <div class="a">
+<p>
+      <strong>Autore:</strong>Tano Festa<br>
+        <strong>Committente:</strong>Antonio Presti<br>
+        <strong>Data di realizzazione:</strong>1989<br>
+          <strong>Ubicazione:</strong> <a href="https://www.google.com/maps/place/Villa+Margi+ME/@38.0160205,14.332248,15.96z/data=!4m5!3m4!1s0x1316d929801cce05:0x66bbd29339d99598!8m2!3d38.0160163!4d14.3351891">Villa Margi</a></div>
+          <strong>Insights:</strong><br>
+<li>Conosciuta come la "Finestra sul mare", per il chiaro impatto visivo, la scultura, ideata da Tano Festa é dedicata al fratello poeta, è un inno <br>
+al colore e all'infanzia, temi ricorrenti nelle opere dell'artista. La cornice, alta 18 metri, realizzata in cemento armato ed armatura ferrosa, è il <br>
+trionfo dell’azzurro, non di quello che vediamo di solito sulla tavolozza di un pittore, ma di quello che c’è nell’animo, quando un poeta-scultore <br>
+come Tano Festa, che fu insieme adulto e bambino, decide di affacciarsi sull’infinito.Questa enorme finestra che tenta di incorniciare il mare, esprime<br>
+il senso limitato di una possibilità diversa di fermarsi con il pensiero sull’orizzonte.Ma e’ anche una tensione alla serenità, anch'essa ricercata da <br>
+Festa,spezzata dal monolite nero, senso finito della nostra esistenza, che "buca" la gioiosa finestra ornata dalle tipiche candide nuvolette ricorrenti <br>
+nel repertorio dell’artista, interferendo con l’armonia dell’opera.</li>
+<li>L'Opera è dell'artista Tano Festa ed è stata commissionata dal mecenate Presti. Si fa ammirare nella sua imponenza ed è ammirabile oltre all'idea <br>
+anche la realizzazione tecnica e l'illuminazione notturna LED.Inserita in un contesto ambientale ricco di natura ma nel degrado e la povertà.<br>
+E' la cornice ideale per l'opera d'arte che "Natura" ha regalato e che l'uomo ha rovinato.Un'autentica provocazione, che ha portato non pochi guai giudiziari<br>
+al proprietario (Presti), e che sottolinea come un delitto ambientale quale la costruzione di una villa venga tollerato in Sicilia mentre un opera d'arte può<br>
+scatenare interrogazioni e querele. Un applauso per la costanza e le battaglie... Alla fine l'arte vince sempre.Festa ha dedicato l'opera al fratello Francesco.</li>
+<li>Un opera che lascia all'immaginazione l'uomo,una scultura che fa riflettere.</li>
+<li>Un luogo magico, soprattutto al tramonto un installazione dentro la spiaggia a due passi dal mare</li>
+<li>La Finestra sul mare è un'opera monumentale realizzata nel comune di Reitano in località Margi dall'artista romano Tano Festa.Si tratta di un monumento<br>
+dedicato al fratello di Festa Francesco lo Savio. L'opera integra realtà circostante e poesia incornicia il paesaggio col quale si integra e che a sua volta<br>
+entra a fare parte del monumento stesso.Le condizioni di degrado del territorio purtroppo non valorizzano il monumento.</li>
+
+</ul>
+</p>
+
+<div class="a">
+<h2><emphasis>2-Il labirinto di Arianna</emphasis></h2></div>
+<center>
+<img src="https://northeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2Fpolimi365-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!ZFbG7bz470uDaD_GfWkM478uDQJCV9pCljvv-vjxEDNCpFfmyHFvQJOYgG4l3dqG%2Fitems%2F01KCODENHZ3W4YS3IQ3ZEZQ3Q3PREU2VYS%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvcG9saW1pMzY1LW15LnNoYXJlcG9pbnQuY29tQDBhMTc3MTJiLTZkZjMtNDI1ZC04MDhlLTMwOWRmMjhhNWVlYiIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NTExOTc0NDciLCJleHAiOiIxNTUxMjE5MDQ3IiwiZW5kcG9pbnR1cmwiOiJveUJGWXBDa3RCODJKZ3FDSlRlTnZkbUZUbU5kRE1pM29kMlRHdUhTbHhjPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJaamRqWW1Nek9XVXRPREJsTmkwNE1EQXdMVEV5T0dRdFl6UTBPRGhqTlRBM09URXciLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWldSak5qVTJOalF0WmpoaVl5MDBZbVZtTFRnek5qZ3RNMlpqTmpka05qa3dZMlV6Iiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHwxMDY0OTg3MEBwb2xpbWkuaXQiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsImlzdXNlciI6InRydWUiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzM2ZmZmE2OWY5Nzc0QGxpdmUuY29tIiwidHQiOiIwIiwidXNlUGVyc2lzdGVudENvb2tpZSI6IjMifQ.eHBuVGpzZXJwMzFLbFpvQy9TQWowMFBYOEJPazdEengzQUpoUTF5TkNvcz0&encodeFailures=1&width=1920&height=894&srcWidth=&srcHeight=">
+</center>
+<div class="a">
+<p>
+  <strong>Autore:</strong>Italo Lanfredini<br>
+    <strong>Committente:</strong>Antonio Presti<br>
+    <strong>Data di realizzazione:</strong>1990<br>
+      <strong>Ubicazione:</strong> <a href="https://www.google.com/maps/place/98070+Castel+di+Lucio+ME/@37.8864295,14.3071028,16z/data=!3m1!4b1!4m5!3m4!1s0x1316d6470afd1345:0xb9c3cea50647f130!8m2!3d37.887652!4d14.3132362">Castel di Lucio</a> </div>
+<strong>Insights:</strong>la scultura la cui forma è un simbolo archetipo, il labirinto, è un percorso fisico, ma anche interiore, che è impossibile non attraversare <br>
+                          tutto una volta entrati.L’opera è collegata al passato, alla cultura classica, alla nascita,ai primi insegnamenti della vita. Attraverso un <br>
+                          varco naturale si entra nel labirinto e si esce dal labirinto, così come nel tempo l’uomo è entrato ed uscito dalla scena. Chi entra nel labirinto,<br>
+                          si pone domande che riguardano la propria esistenza, in un posto ed in una dimensione a-temporale, in cui è impossibile interrogarsi. Il labirinto<br>
+                           è riflessione, è spiritualità che deriva da una sorta di “maternità”, espressa in un dolce concentrico svolgersi di cerchi culminante in una <br>
+                           aspirazione all’alto, al sublime. Un viaggio che sembra dentro la terra ma è sotto il cielo, al cui centro è la vita, l’antica sorgente <br>
+                           rappresentata da una lucente lastra metallica al centro della spirale, che ci riporta al tema della Madre Terra e del mistero della fecondazione.<br>
+      </p>
+
+<div class="a">
+<h2><emphasis>3-Piramide al 38° parallelo</emphasis></h2></div>
+<center>
+<img src="https://northeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2Fpolimi365-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!ZFbG7bz470uDaD_GfWkM478uDQJCV9pCljvv-vjxEDNCpFfmyHFvQJOYgG4l3dqG%2Fitems%2F01KCODENDK4T72YOXD3BHKMNPA2E2L75BL%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvcG9saW1pMzY1LW15LnNoYXJlcG9pbnQuY29tQDBhMTc3MTJiLTZkZjMtNDI1ZC04MDhlLTMwOWRmMjhhNWVlYiIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE1NTExOTkzNjciLCJleHAiOiIxNTUxMjIwOTY3IiwiZW5kcG9pbnR1cmwiOiJveUJGWXBDa3RCODJKZ3FDSlRlTnZkbUZUbU5kRE1pM29kMlRHdUhTbHhjPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJjaWQiOiJZMk5qWkdNek9XVXRZekJoTmkwNE1EQXdMVEV6TW1ZdE1tRmlOVFl4T0RJeVl6QmoiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWldSak5qVTJOalF0WmpoaVl5MDBZbVZtTFRnek5qZ3RNMlpqTmpka05qa3dZMlV6Iiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHwxMDY0OTg3MEBwb2xpbWkuaXQiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsImlzdXNlciI6InRydWUiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzM2ZmZmE2OWY5Nzc0QGxpdmUuY29tIiwidHQiOiIwIiwidXNlUGVyc2lzdGVudENvb2tpZSI6IjMifQ.Njd3SUxIeVRySG0zRit4NFdqeUsrR0ZmdE5xaTdUdTEvK2ZVZ0dRRThmaz0&encodeFailures=1&width=1920&height=894&srcWidth=&srcHeight=">
+</center>
+
+<div class="a">
+<p>
+  <strong>Autore:</strong>Mauro Staccioli <br>
+    <strong>Committente:</strong>Antonio Presti<br>
+    <strong>Data di realizzazione:</strong>2010 <br>
+      <strong>Ubicazione:</strong><a href="https://www.google.com/maps/place/98070+Motta+D'affermo+ME/@37.9816193,14.3007477,17z/data=!3m1!4b1!4m5!3m4!1s0x1316d86236813f6d:0x7d98642a3d4eb449!8m2!3d37.9811619!4d14.3032004"> Motta d'Affermo</a></div>
+      <strong>Insights:</strong>Il sito prescelto per la scultura di Staccioli è una leggera altura del territorio di Motta d’Affermo:un avamposto in quota sul mare e <br>
+                                prospiciente gli scavi di Halaesa, le cui coordinate geografiche centrano esattamente la consistenza matematica del trentottesimo parallelo.<br>
+                                Nominando la propria opera, l’artista traduce l’astrazione della misura terrestre in creativa percezione metafisica e suggella l’intrinseco <br>
+                                legame dell’opera alla geografia del luogo, in perfetta sintonia con la poetica che contraddistingue sin dagli anni sessanta le proprie creazioni.<br>
+                                L’opera è un tetraedro titanico cavo realizzato in acciaio corten.Parzialmente sprofondata nel territorio roccioso, presenta una fessura lungo <br>
+                                lo spigolo occidentale che rende ancora più preciso il suo collocarsi nella specificità del luogo e nello spazio cosmico. Come un faro introverso,<br>
+                                testimone consapevole del ciclico e irreversibile scorrere del tempo, cattura la luce solare attraverso la fessura, registrando nel proprio <br>
+                                ventre geometrico i riverberi luminosi dallo zenit al tramonto. Al concetto di immortalità, notoriamente correlato alla piramide faraonica, <br>
+                                subentra qui il concetto più responsabile di transitorietà, attraverso il quale l’artista celebra la vita nel suo incessante anelito all’eterno.<br>
+      </p>
+
+</body>
+
+
+</html>
+
+<style>
+a{
+font-size:20px;
+}
+
+p{
+font-size:18px
+}
+
+h2{
+font-size:18px
+}
+
+h1{
+  text-align:center;
+}
+h1{
+ color:f3f9fb;
+}
+
+h2{
+ color:#913535;
+ }
+ .bold_em{
+         font-weight=bold;
+ }
+#mappa{
+      margin:20px;
+}
+
+#first_p{
+        background-color:226597;
+}
+#first_div{
+          background-color: 87c0cd;
+          padding: 40px ;
+          margin: 0 auto;
+          border: solid 113f67 5px;
+          width: 50%;
+          clear: both;
+      }
+      #mappa{
+        width:300px;
+        float: right;
+      }
+ </style>
