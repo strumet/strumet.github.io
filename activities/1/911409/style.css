@@ -1,0 +1,68 @@
+#first_p {
+  backgroung:#CA4C00;
+
+}
+
+#first_div {
+  background-color:#CA4C00;
+  padding:20px;
+  flex:1 1 auto;
+}
+h1{
+  color: : cyan;
+}
+h3 {
+  color: blue;
+  backgroung-color: black;
+}
+h4{
+color: blue;
+}
+
+img {
+  width:300px;
+  margin:20px;
+}
+#img_arco{
+  width: 300px;
+  marging: 10px;
+  border:1px;
+
+}
+#main{
+  display:flex;
+  flex-flow:colum  ;
+  border: 1 1 auto;
+}
+#main_container {
+  display: inline;
+
+}
+#content{
+  display:flex;
+  flex-flow: column;
+align-items: center;
+justify-content: flex-end;
+
+}
+#aside {
+  width: 300px
+	background: gray;
+  flex:1 1 auto;
+}
+
+#introduction {
+	background: pink;
+  flex: 1 1 auto;
+}
+
+#project {
+	background: olive;
+  flex: 1 1 auto;
+  padding: 20px;
+
+}
+#titolo{
+  flex:1 1 auto;
+
+}
