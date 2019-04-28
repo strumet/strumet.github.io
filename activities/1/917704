@@ -1,0 +1,143 @@
+<html>
+<head>
+  <title> Libreria Veliero </title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="shortcut icon" href="file:///C:/Users/Zoia/Desktop/STRUMET/STRUMET%20IMMAGINI/IMMAGINI%20STRUMET/presentation.design.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+
+<div>
+<HEADER id="header"> <h1> DESIGN </h1> </header>
+</div>
+
+<div>
+<p>
+    <nav id="first_nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Progetti</a></li>
+          <li><a href="#">Contatti</a></li>
+        </ul>
+      </p>
+</div>
+
+
+<br>
+
+<div>
+<p>
+<h1 id="h1">
+Libreria Veliero
+</h1>
+</p>
+</div>
+
+<div>
+<p id = "first_p">
+  La <b>libreria "Veliero"</b> è un oggetto di <b><a href="https://it.wikipedia.org/wiki/Design_italiano" title = "Design Italiano" target="_blank">design</a></b> progettato nel 1940 da
+<b><a href="https://it.wikipedia.org/wiki/Franco_Albini" title="Franco Albini" target="_blank" >Franco Albini</a></b>
+realizzato in un unico esemplare espressamente per la sua casa e successivamente prodotto da Cassina a partire dal 2011.
+La sua <b><a href="https://it.wikipedia.org/wiki/Tensostruttura">tensostruttura</a></b> rimanda a un'imbarcazione a vela ed è costituita da due aste in legno di <b><a href="https://it.wikipedia.org/wiki/Fraxinus">frassino</a></b> fra le quali, attraverso dei tiranti in acciaio, sono sospesi i ripiani in vetro.
+</p>
+</div>
+
+<br>
+<br>
+
+<div>
+<img id="first_img" src="file:///C:/Users/Zoia/Desktop/STRUMET/STRUMET%20IMMAGINI/IMMAGINI%20STRUMET/veliero_big.jpg">
+</div>
+
+<br>
+<br>
+
+<div id="Veliero">
+<h2>
+Veliero
+</h2>
+</div>
+
+<div>
+<p>
+  <dl>
+<ul id="list">
+<Li><b>Anno di progettazione:</b> 1940</Li>
+<Li><b>Progettista:</b> Franco Albini</Li>
+<Li><b>Tipo di oggetto:</b> Libreria</Li>
+<Li><b>Produttore:</b> <a rel="https://www.cassina.com/it">Cassina</a></Li>
+<Li><b>Prodotto dal:</b> 2011</Li>
+<Li><b>Materiali:</b> Legno di frassino, ottone, vetro</Li>
+<Li><b>Note:</b> Tensostruttura</Li>
+</ul>
+</dl>
+</p>
+</div>
+
+<br>
+
+<div>
+<h2 id="Concept">
+  Concept
+</h2>
+<p id="f_concept">
+Dotata di forte carica sperimentale, questa libreria in tensostruttura, capace di coniugare semplicità e riduzione ai minimi termini degli elementi costitutivi, pone grande attenzione alle caratteristiche tecniche dei materiali e alla realizzazione di un “equilibrio instabile”.
+</p>
+<p>
+  Richiama nella forma e nella struttura gli stralli di un’imbarcazione a vela. Ne risulta un rigore diafano ed aereo, tale che i libri sembrano fluttuare nello spazio.
+  Albini arriva a coniugare la razionalità con la fantasia, dando vita ad un mondo poetico e funzionale al tempo stesso.
+</p>
+</div>
+
+<br>
+
+
+
+<div>
+<h2>
+  Storia
+  </h2>
+</div>
+
+<div>
+<p>
+  <b><a href="https://it.wikipedia.org/wiki/Franco_Albini" title="Franco Albini" target="_blank">Franco Albini</a></b> (<i>Robbiate, 17 ottobre 1905 – Milano, 1º novembre 1977</i>) fu un noto architetto e designer italiano.
+  <br>
+  Alcuni degli oggetti da lui progettati, tra cui alcune famose maniglie, sono ancora in produzione e sono venduti in tutto il mondo: fra questi vi è la poltrona <i>Fiorenza</i>, disegnata nel 1952 per <b><a href="http://www.arflex.it/" title="Arflex" target="_blank">Arflex</a></b> utilizzando materiali allora innovativi per il settore del mobile.
+  <br>
+  <br>
+  Fra le sue più importanti opere di design non possiamo non ricordare la celebre <i>Libreria Veliero</i>, arredo manifesto della sua carriera e simbolo di sperimentazione e di sfida alle leggi fisiche, che nasconde in filigrana una filosofia dell'immagine e una scienza dell'energia e del dinamismo.
+  <br>
+  Albini disegnò tale libreria nel 1938 e la fece realizzare in unico esemplare per la sua casa milanese nel 1940.
+  <br>
+  Fu <b><a href="https://www.cassina.com/it" title="Cassina"target="_blank" >Cassina</a></b> anni dopo ad occuparsi di portare agli occhi del pubblico questo straordinario oggetto di design che inserì nella propria collezione <i>I Maestri</i>, la quale raccoglie una selezione delle opere più simboliche e significative dei protagonisti del <i>Movimento Moderno</i>, considerati punti di riferimento essenziali e imprescindibili del design contemporaneo.
+</p>
+</div>
+
+
+<br>
+
+<div id="Descrizione">
+<h2>
+  Descrizione
+  </h2>
+</div>
+
+<div id="Descrizione_p">
+<p>
+  <b>Veliero</b> di <i>Cassina</i> (riedizione 2011) è una libreria da terra, la cui base è costituita da un basamento in trafilato di acciaio con scocca in legno di frassino.
+  <br>
+  Dalla base si sviluppa una struttura costituita da due montanti in legno di frassino con puntali in <b><a href="https://it.wikipedia.org/wiki/Ottone_(lega)">ottone</a></b> e tiranti in tondino di <b><a href="https://it.wikipedia.org/wiki/Acciaio_inossidabile">acciaio inox</a></b> da 4 mm.
+  <br>
+  Gli elementi di aggancio dei tiranti sono in ferro brunito con tiranti centrali in ottone satinato. I ripiani sono realizzati in vetro stratificato di sicurezza 3+3 mm e i loro sostegni in legno di frassino con estremità in ottone satinato.
+  </p>
+</div>
+
+<div id="img_2">
+  <img src="file:///C:/Users/Zoia/Desktop/STRUMET/STRUMET%20IMMAGINI/IMMAGINI%20STRUMET/IW_Franco-Albini_veliero_08.png" alt="">
+</div>
+
+</body>
+</html>
