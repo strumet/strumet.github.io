@@ -1,0 +1,90 @@
+#header {color: #B18904;
+   background-color: #F7F2E0;
+   font-family: 'Ubuntu', sans-serif;
+   text-align: center;
+   font-size: 22px;
+   font-weight: 100;
+   text-shadow: 5px black;
+   letter-spacing: 3px;
+}
+
+#first_nav {font-family: 'Ubuntu', sans-serif;
+font-size: 14px;
+background-color: #F2F2F2;
+display: flex;
+width: 40%;
+float: right;
+margin-right: 30px;}
+
+#h1 { color: #B18904;
+   background-color: #F7F2E0;
+   font-family:'Ubuntu', sans-serif;
+   text-align: center;
+   font-size: 22px;
+   font-weight: 600;
+   width: 50%;
+}
+
+#list {font-family: 'Ubuntu', sans-serif;
+font-size: 14px;
+line-height: 22px;
+float: none;
+background-color:#F2F2F2;}
+
+#first_p {
+  border: yellow 5px;
+  width: 50%;
+  float: left;
+  background-color: white;
+}
+
+#first_img {margin: 0;
+float: right;}
+
+h2 { color: #B18904;
+   background-color: #F7F2E0;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 300;
+   text-align: center;
+ }
+
+#Veliero { color: #B18904;
+   background-color: #F7F2E0;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 300;
+ float: none;
+  clear: left;}
+
+#Concept {color: #B18904;
+   background-color: #F7F2E0;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 300;
+ float: none;}
+
+#Descrizione {color: #B18904;
+   background-color: #F7F2E0;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 300;
+float: right;
+clear: right;
+width: 60%;}
+
+ #Descrizione_p {float: right;
+ clear: both;
+width: 60%;}
+
+ #img_2 {float: left;
+ margin-left: 30px;
+ margin-bottom: 30px;
+
+ }
+
+p {font-family: 'Ubuntu', sans-serif;
+font-size: 14px;
+line-height: 20px;}
+
+
+nav {font-family: 'Ubuntu', sans-serif;}
+
+
+a {text-decoration: none;}
