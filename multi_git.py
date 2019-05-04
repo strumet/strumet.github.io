@@ -59,14 +59,12 @@ act_dict = {
         'activities/4/': {
             'regex': re.compile('^\d{6}\.(ifc|pdf)$', re.IGNORECASE),
             'url': base_url + 'activities/4#activity-4'},
-        #'activities/5/': {
-        #    'regex': re.compile('^\d{6}(-LP)?\.obj$', re.IGNORECASE),
-        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
-        #            'activities/5#activity-5'},
-        #'activities/6/': {
-        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
-        #            'activities/6#activity-6'},
+        'activities/5/': {
+            'regex': re.compile('^\d{6}\.pdf$', re.IGNORECASE),
+            'url': base_url + 'activities/5#activity-5'},
+        'activities/6/': {
+            'regex': re.compile('^\d{6}\.pdf$', re.IGNORECASE),
+            'url': base_url + 'activities/6#activity-6'},
         #'activities/7/': {
         #    'regex': re.compile('^\d{6}[-_][ABC](-LP)?\.png$', re.IGNORECASE),
         #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
