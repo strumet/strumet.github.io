@@ -1,0 +1,78 @@
+#titolo {
+	width: 523px;
+	float: left;
+	overflow-x: visible;
+	height: 185px;
+	margin-top: -486px;
+	margin-left: 36px;}
+
+	img {width: 50%;float: left;}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: url(meltedcopertina3.jpg);
+    height: 1643px;
+    background-attachment: scroll;
+    background-size: 100% auto;
+    background-position: 0% -25%;}
+
+#container:hover {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: url(meltedcopertina3.jpg);
+    height: 1643px;
+    background-attachment: scroll;
+    background-size: 100% auto;
+    background-position: 0% -71px;
+    transition: all 1s;}
+
+#header{
+    width: 920px;
+    padding: 20px;
+    background-color: #364A6D;
+    height: 460px;}
+
+#body{
+	margin:0;
+	padding:0;
+	background: #e2e2e0;
+	color: #666;
+	font: 16px/28px;font-family: 'Open Sans', sans-serif; line-height:22px;}
+
+#nav{
+    width: 960px;
+    height: 241px;
+    background-attachment: fixed;
+    background-image: url(meltedcopertina.jpg);}
+
+.item-evi{
+    width: 280px;
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #364A6D;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-size: small;
+    float: left;}
+
+h1 {
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 400%;
+    float: left;
+    clear: both;}
+
+#footer {
+    width: 960px;
+    background-color: #364A6D;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: x-small;}
