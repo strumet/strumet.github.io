@@ -1,3 +1,24 @@
 # Projects
 
-Projects repository
+Per consegnare il lavoro di presentazione web del proprio progetto
+d'esame è necessario raccogliere tutti i file prodotti (pagine
+html, fogli di stile css, immagini e disegni...) in **un'unica
+cartella denominata con il proprio numero di matricola**.
+
+Tale cartella dovrà essere creata all'interno della cartella **_projects_**
+del proprio repository (per maggiori informazioni su come creare
+una nuova cartella su github vedere [le istruzioni dell'attività
+1](https://github.com/strumet/strumet.github.io/tree/master/activities/1#activity-1)).
+
+La cartella creata dovrà sempre contenere un file denominato **_index.html_**
+che costituirà la pagina d'ingresso al sito.
+
+Il termine per la consegna della presentazione web del proprio
+progetto è fissato per **le 23:59 del giorno precedente la data d'esame scelta**.   
+Come di consueto, il lavoro dovrà essere inoltrato al repository
+del corso tramite _pull request_.
+
+Dopo qualche minuto dall'accettazione del pull request (_merging_)
+sarà possibile navigare e testarne il corretto funzionamento del
+proprio sito all'indirizzo ``https://strumet.github.io/projects/NUMEROMATRICOLA``
+sostituendo "NUMEROMATRICOLA" con il proprio numero di matricola
