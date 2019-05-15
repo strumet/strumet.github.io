@@ -60,7 +60,7 @@ act_dict = {
             'regex': re.compile('^\d{6}\.(ifc|pdf)$', re.IGNORECASE),
             'url': base_url + 'activities/4#activity-4'},
         'activities/5/': {
-            'regex': re.compile('^\d{6}\.pdf$', re.IGNORECASE),
+            'regex': re.compile('^\d{6}\.(ifc|pdf)$', re.IGNORECASE),
             'url': base_url + 'activities/5#activity-5'},
         'activities/6/': {
             'regex': re.compile('^\d{6}\.pdf$', re.IGNORECASE),
