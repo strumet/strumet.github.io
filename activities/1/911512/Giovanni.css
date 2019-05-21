@@ -1,0 +1,42 @@
+#first_p {
+}
+
+
+
+h3 {
+}
+
+img {
+  width:300px;
+  border: 1px solid black;
+}
+
+#main {
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+#content
+
+#main_container {
+}
+
+#aside {4
+  width: 300px;
+	background: gray;
+  flex: 0 0 auto;
+}
+
+#introduction {
+	background: pink;
+}
+
+#first_div {
+  background-color: green;
+  flex: 0 0 auto;
+}
+
+#project {
+	background: olive;
+  flex: 0 0 auto;
+}
