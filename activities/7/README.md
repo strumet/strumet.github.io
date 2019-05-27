@@ -76,4 +76,125 @@ realizzate.
 
 ### Vincoli
 
-**Soluzione 1**: ... (i vincoli delle diverse soluzioni progettuali saranno pubblicati all'inizio della prova ex-tempore)
+#### Soluzione 1
+Proporre una soluzione progettuale per **un'abitazione di circa 40 mq**
+che preveda:
+
+- una camera da letto matrimoniale di almeno 14 mq
+- una zona giorno/pranzo con angolo cottura
+- almeno un bagno
+
+Tutti gli ambienti indicati devono affacciarsi verso l'esterno
+con almeno una finestra.
+
+Il progetto deve essere presentato in una **pagina web** contenente
+la pianta ed una sezione, entrambe arredate e complete di **didascalia
+esplicativa** in carattere corsivo.
+
+---
+
+#### Soluzione 2
+Proporre una soluzione progettuale per **un'abitazione di circa 70 mq**
+che preveda:
+
+- una camera da letto singola di almeno 9 mq
+- una camera da letto matrimoniale di almeno 14 mq
+- una cucina con almeno 5 moduli da 60cm
+- un ambiente living
+- almeno un bagno
+
+Tutti gli ambienti indicati devono affacciarsi verso l'esterno
+con almeno una finestra.
+
+Il progetto deve essere presentato in una **pagina web** contenente
+la pianta ed una sezione, entrambe arredate, ed **un testo descrittivo**
+dell'impianto planimetrico.
+
+---
+
+#### Soluzione 3
+Proporre una soluzione progettuale per **un'abitazione di circa 120 mq**
+che preveda:
+
+- due camere da letto singole di almeno 9 mq
+- una camera matrimoniale di almeno 14 mq
+- una cucina abitabile con un tavolo da pranzo con 4 sedie
+- un living con divani, poltrone ed un pianoforte a coda (o a mezza coda)
+- due bagni
+
+Gli ambienti indicati devono affacciarsi verso l'esterno con almeno
+una finestra ad eccezione del più piccolo dei due bagni che può essere cieco.
+
+Il progetto deve essere presentato in una **pagina web** contenente
+la pianta ed una sezione, entrambe arredate, ed **un elenco puntato di almeno
+5 link** a pagine web relative a prodotti di arredo reali presenti
+nella proposta progettuale (tavolo, sedia, divano, pianoforte,
+wc, lavabo, complementi di arredo, etc...)
+
+---
+
+#### Soluzione 4
+Proporre una soluzione progettuale per il **piano tipo di un edificio
+per uffici** che preveda:
+
+- l'accesso al piano attraverso una scala a doppia rampa
+- una parete interamente vetrata attraverso cui sia possibile
+accedere ad un terrazzo esterno
+- 6 postazioni di lavoro in un ambiente open space. Ogni postazione
+deve essere dotata di scrivania, sedia, libreria o scaffale, cassettiera
+- una sala riunioni con un tavolo per 12 sedie
+- due uffici autonomi adeguatamente attrezzati (tavolo, sedie,
+poltroncina, scaffale...)
+- servizi igienici per gli impiegati dell'ufficio
+- uno stanzino di servizio
+
+Tutti gli ambienti, ad eccezione dello stanzino, devono essere
+dotati di finestra.
+
+Il progetto deve essere presentato in una **pagina web** contenente
+**due miniature** (o thumbnails) in cui saranno visibili, rispettivamente,
+una porzione ritagliata della pianta ed una porzione ritagliata
+della sezione.   
+Cliccando su entrambe le immagini dovrà aprirsi una nuova pagina
+contenente l'intero disegno cliccato.   
+**La sezione deve passare per la rampa della scala** di accesso ed
+entrambi i disegni dovranno essere arredati.
+
+---
+
+#### Soluzione 5
+Proporre una soluzione progettuale per **un locale/bar** di dimensioni
+4m x 15m che preveda:
+
+- l'ingresso da uno dei due lati corti attraverso una parete vetrata
+- un bancone lungo almeno 4 metri
+- una postazione per la cassa (inclusa nel bancone o autonoma)
+- 4 tavolini con almeno due sedie ciascuno
+- servizi igienici
+- un piccolo spazio di deposito/sgabuzzino
+
+Il progetto deve essere presentato in una **pagina web** contenente
+la pianta ed una sezione, entrambe arredate, ed un piccolo **testo
+di presentazione del locale**. Nella stessa pagina dovrà inoltre
+essere presente **una mappa indicante l'ipotetica localizzazione
+del locale**.
+
+---
+
+#### Soluzione 6
+Proporre una soluzione progettuale per **un ambiente museale** che
+preveda un **percorso espositivo con 8 salette destinate ad ospitare
+opere d'arte esistenti** (quadri, sculture, oggetti, etc...).
+
+Il progetto deve essere presentato in una **pagina web** contenente
+la pianta ed una sezione. **Per ogni opera** deve essere tracciato
+l'**ingombro approssimativo** ed assegnato un **numero identificativo**
+progressivo (1, 2, 3...).   
+Un **elenco numerato delle opere**, corrispondente alla numerazione adottata 
+nei disegni, deve completare la pagina web. Per ogni voce l'elenco deve 
+riportare: 
+
+- una piccola immagine dell'opera
+- il titolo dell'opera
+- l'autore dell'opera in forma di link alla voce _Wikipedia_ corrispondente.
+
