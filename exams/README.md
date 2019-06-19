@@ -12,7 +12,7 @@ Il lavoro è **individuale** e consiste nella realizzazione di
 **2 o più tavole in formato A2** che illustrino il progetto attraverso
 disegni, immagini, testi ed elementi grafici.   
 Insieme alle tavole di presentazione ogni studente dovrà realizzare
-**una o più pagine web** tese a descrivere il progetto scelto.
+**una o più pagine web** tese a descrivere il proprio progetto.
 
 Il progetto dovrà essere rappresentato attraverso:
 
