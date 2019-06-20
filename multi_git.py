@@ -68,34 +68,12 @@ act_dict = {
         'activities/7/': {
             'regex': re.compile('^.*$', re.IGNORECASE),
             'url': base_url + 'activities/7#activity-7'},
-        #'activities/9/': {
-        #    'regex': re.compile('^\d{6}[^\s]*\..*$', re.IGNORECASE),
-        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
-        #            'activities/9#activity-9'},
-        #'exercises/': {
-        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
-        #            'exercises#exercises'},
-        #'midterm_1/': {
-        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
-        #            'midterm_1#first-midterm'},
-        #'midterm_2/': {
-        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
-        #            'midterm_2#second-midterm'},
-        #'midterm_1/update/': {
-        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
-        #            'midterm_1_update#first-midterm-update'},
-        #'midterm_2/update/': {
-        #    'regex': re.compile('^\d{6}[-_]\d\d(-LP)?\.obj$', re.IGNORECASE),
-        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
-        #            'midterm_2_update#second-midterm-udpate'},
-        #'exams/': {
-        #    'regex': re.compile('^\d{6}[-_][12]([_-]LP)?\.png$', re.IGNORECASE),
-        #    'url': 'https://github.com/strumet/modeling/tree/master/' + \
-        #            'exams#final-exam'},
+        'projects/': {
+            'regex': re.compile('^\d{6}\/', re.IGNORECASE),
+            'url': base_url + 'projects#projects'},
+        'exams/': {
+            'regex': re.compile('^\d{6}\.pdf$', re.IGNORECASE),
+            'url': base_url + 'exams#esame-finale'},
         }
 
 ## Functions
