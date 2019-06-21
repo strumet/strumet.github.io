@@ -1,0 +1,69 @@
+body {
+  background-color: rgba(250, 250, 250, 0.4) !important;
+  background-image: url(889747_8.png);
+  background-blend-mode: color;
+  background-repeat: repeat-y;
+  background-position: top;
+  width: 1775px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+figcaption {
+  font-size: 20px;
+  font-family: RomanD;
+  color: #003D4B;
+  margin-left: 40px;
+}
+
+#link {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: #E1D4BA;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+h1 {
+    color: #003D4B;
+    font-family: Book Antiqua;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 20px #E1D4BA;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #003D4B;
+    font-family: RomanD;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 20px #E1D4BA;
+    margin-top: 2px;
+}
+
+ p {
+   color: #FF635A;
+   font-family: RomanD;
+   font-size: 20px;
+   text-align:center;
+ }
+
+a {
+  color: #FFFFFF;
+  font-family: RomanD;
+  font-size: 20px;
+  text-align:center;
+}
+
+.MyButton {
+  margin-top: 20px;
+}
