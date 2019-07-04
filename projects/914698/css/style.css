@@ -47,7 +47,7 @@ a:hover {
 }
 
 .fondo-story{
-	background-image: url("../img/storyfondo.jpg");
+	background-image: url("../img/activitiesfondo.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .fondo-facilities{
-	background-image: url("../img/facilitiesfondo.jpg");
+	background-image: url("../img/locationsfondo.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -70,7 +70,7 @@ a:hover {
 }
 
 .fondo-bookings{
-	background-image: url("../img/bookingsfondo.jpg");
+	background-image: url("../img/storyfondo.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
