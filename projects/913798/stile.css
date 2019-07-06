@@ -1,0 +1,20 @@
+.titolo {margin-bottom: 10px;}
+
+.flex-container {
+  
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-left: 25%;
+  margin-right: 25%;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  
+}
+row {
+  width: 100%;
+}
+.flex-item {
+	margin: 30px;
+}
