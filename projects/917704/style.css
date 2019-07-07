@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+#html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+
+#body {background: rgb(255,255,235);
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+	width: 100%;
+	height: 100%
+
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration-line: none;
+}
+
+
+a:hover {
+  color: rgb(110,110,100);
+  text-decoration-line: underline;
+}
+
+
+#header {color: black;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+   font-size: 22px;
+   font-weight: 100;
+   text-shadow: 10px black;
+   letter-spacing: 3px;
+   background-color: rgb(255,255,245);
+}
+
+
+#first_nav {
+text-decoration-line: none;
+
+}
+
+#first_p {
+  font-size: 14px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+
+
+
+#first_img {
+  height: auto;
+  width: 110%;
+  margin-top: -20%;
+  margin-left: -7%;
+  margin-right: auto;
+  margin-bottom: -20%;
+  display: flex;
+
+}
+
+
+
+#second_img {
+  height: auto;
+  width: 110%;
+  margin-top: -10%;
+  margin-left: -7%;
+  margin-right: auto;
+  margin-bottom: -10%;
+  display: flex;
+
+}
+
+#third_img {
+  height: auto;
+  width: 110%;
+  margin-top: -10%;
+  margin-left: -7%;
+  margin-bottom: -15%;
+  margin-right: auto;
+  display: flex;
+
+}
+
+#descrizione{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#concept {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#f_concept {
+  font-size: 14px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#pianta-ab {
+  height: auto;
+  width: 70%;
+  margin-top: -3%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+}
+
+#pianta-a {
+  height: auto;
+  width: 70%;
+  margin-top: -5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+}
+
+#figcaption {
+font-size: 11px;
+display: block;
+margin-top: auto;
+margin-bottom: 10%;
+margin-left: auto;
+text-align: center;
+color: grey;
+
+}
+
+#diagram-1 {
+  height: auto;
+  width: 30%;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+
+
+#diagram-2 {
+  height: auto;
+  width: 30%;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+#location {height: auto;
+width: 70%;
+margin-top: -10%;
+margin-left: 15%;
+margin-right: auto;
+}
+
+
+
+#header-location {color: black;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+   font-size: 22px;
+   font-weight: 100;
+   text-shadow: 10px black;
+   letter-spacing: 3px;
+   background-color: rgb(255,255,245);
+
+
+}
+
+
+
+.container {
+  position: relative;
+  width: 20%;
+  float: left;
+  padding: 2.5%;
+
+}
+
+
+.image {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 14px;
+}
