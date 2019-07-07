@@ -1,0 +1,62 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    background-image: url(file:///Users/martina/Desktop/914208/IMGs/moodbard.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+  }
+
+header {
+  background-image: url(file:///Users/martina/Desktop/914208/IMGs/icone.png);
+  max-width: 100%;
+  object-fit: cover;}
+
+h1{
+  color: #14192f;
+  font:60px/170% 'Corundum Text';
+  margin-top: 0.5em;
+  text-align:center;
+}
+
+h3{
+  color: white;
+  background-color: #14192f;
+  font: 2em/150% 'Corundum Text';
+  text-align: center;
+  padding: 0.1em;
+}
+
+h4{
+  background-color: #DCC799;
+  font: 1em/170% 'Acumin Pro';
+  padding: 0.2em;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p{
+  font: 1em/150% 'Acumin Pro';
+  color: black;
+  margin-left: 2em;
+  padding: 1em;
+}
+
+footer {
+  margin: auto;
+  background-color: #14192f;
+  padding-bottom: 0.5em;
+}
+
+footer p {
+    font: 0.5em/120% 'Acumin Pro';
+    text-align: center;
+    padding: 3em;
+    color: white;
+}
