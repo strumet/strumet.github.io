@@ -1,0 +1,27 @@
+html {
+     background-image: url("Sfondo_Pred.jpg");
+     background-size: 100%;
+     scroll-behavior: smooth;
+}
+#Titolo{
+    width: 100%;
+    padding: 0;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-family: Garamond;
+}
+#h{
+    font-family: Garamond;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+#Link{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+#Link:visited{
+    color: black;
+}
