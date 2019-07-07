@@ -50,7 +50,7 @@ body, html {
 }
 
 #detail {
-    background: url("../img/Cemento.jpg") no-repeat fixed;
+    background: url("../img/cemento.jpg") no-repeat fixed;
     background-size:50px cover;
     color: white;
 }
