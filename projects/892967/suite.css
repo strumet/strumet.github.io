@@ -1,0 +1,234 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #003054;
+  /*font-family: 'Dancing Script', cursive; */
+  font-family: 'Open Sans', sans-serif;
+  color: white
+}
+div.description {
+  text-align: justify;
+  width:50%;
+  margin-right: 10px;
+
+  }
+div.elencoinfo {
+  margin-right: 0;
+  margin-left: 2;
+  font-size: 0.3rem;
+  text-align: left;
+  }
+
+div.esterno {
+  margin-top: 10px;
+  }
+div.foto {
+  margin-top: 10px;
+  }
+
+
+
+
+body {
+  width: 80%;
+  min-width: 900px;
+  margin: 0 auto;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+p, input,  {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 0.5rem
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 2rem;
+  list-style: outside;
+
+}
+
+ul#menu {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5px;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+
+}
+
+ul#menu li {
+    background-color: #003054;
+    border-left: 5px solid #faf0e6;
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 7px 0;
+}
+
+ul#menu li a {
+    color: black;
+    display: block;
+    font-weight: normal;
+    line-height: 17px;
+    padding-left: 15px;
+    text-decoration: none;
+    width: 135px;
+    height: 30px;
+    clear: left;
+
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 0px 0px 0px black;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  text-align: left;
+
+}
+
+
+p,  {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+li {
+  font-size: 0.8rem;
+  margin-right:0px;
+  padding:1%;
+  line-height: 2;
+
+
+}
+
+
+
+
+
+body > * {
+  background-color: #003054;
+  padding: 2px;
+}
+
+main, nav, article, aside, section {
+  background-color:  #003054;
+  padding: 2%;
+}
+
+h1 {
+  flex: 5;
+  text-transform: uppercase;
+}
+
+
+nav {
+  height: 50px;
+  flex: 100%;
+  display: flex;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+
+}
+
+nav a, nav span {
+  display: inline-block;
+  font-size: 1rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+
+}
+
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 2;
+  margin-left:0px;
+  padding:1%;
+  margin-right: 0px;
+  text-align: center;
+
+
+}
+
+aside {
+  flex: 3;
+  margin-left: 10px;
+  padding: 0%;
+
+}
+
+
+
+
+aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+aside img {
+  max-width: 95%;
+}
+
+footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 0.6rem;
+  text-align: center;
+
+
+}
+
+
+
+
+
+</style>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
