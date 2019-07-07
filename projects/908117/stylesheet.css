@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway.woff2') format('woff2'),
+        url('Raleway.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Swis721 Lt BT';
+    src: url('Swiss721BT-Light.woff2') format('woff2'),
+        url('Swiss721BT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
