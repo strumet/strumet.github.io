@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Fresh Hotel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css">
+<link rel="stylesheet" href="layput/styles/forms.css" type="text/css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.layout-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.layout-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="layout-sidebar layout-lime-green layout-collapse layout-top layout-large layout-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="layout_close()" class="layout-button layout-hide-large layout-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="layout-container">
+    <h3 class="layout-padding-64"><b>Fresh<br>Hotel</b></h3>
+  </div>
+  <div class="layout-bar-block">
+    <a href="#" onclick="layout_close()" class="layout-bar-item layout-button layout-hover-white">Home</a>
+    <a href="#showcase" onclick="layout_close()" class="layout-bar-item layout-button layout-hover-white">Images</a>
+    <a href="#services" onclick="layout_close()" class="layout-bar-item layout-button layout-hover-white">Services</a>
+    <a href="#designers" onclick="layout_close()" class="layout-bar-item layout-button layout-hover-white">Designers</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="layout-container layout-top layout-hide-large layout-lime-green layout-xlarge layout-padding">
+  <a href="javascript:void(0)" class="layout-button layout-lime-green layout-margin-right" onclick="layout_open()">☰</a>
+  <span>Fresh Hotel</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="layout-overlay layout-hide-large" onclick="layout_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="layout-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="layout-container" style="margin-top:80px" id="showcase">
+    <h1 class="layout-jumbo"><b>Fresh Hotel</b></h1>
+    <h1 class="layout-xxxlarge layout-text-green"><b>Images</b></h1>
+    <hr style="width:50px;border:5px solid green" class="layout-round">
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <div class="layout-row-padding">
+    <div class="layout-half">
+      <img src="layout/images/esplososito.jpg" style="width:100%" onclick="onClick(this)" alt="Esploso Hotel">
+      <img src="layout/images/piateprospettosito.jpg" style="width:100%" onclick="onClick(this)" alt="Piante e Prospetto">
+      <img src="layout/images/altrasezionesito.jpg" style="width:100%" onclick="onClick(this)" alt="Sezione 3">
+    </div>
+
+    <div class="layout-half">
+      <img src="layout/images/arrdeosito.jpg" style="width:100%" onclick="onClick(this)" alt="Arredo personalizzato">
+      <img src="layout/images/sezionisito.jpg" style="width:100%" onclick="onClick(this)" alt="Sezioni 1 e 2">
+      <img src="layout/images/render.jpg" style="width:100%" onclick="onClick(this)" alt="Render">
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="layout-modal layout-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="layout-button layout-black layout-xxlarge layout-display-topright">×</span>
+    <div class="layout-modal-content layout-animate-zoom layout-center layout-transparent layout-padding-64">
+      <img id="img01" class="layout-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="layout-container" id="services" style="margin-top:75px">
+    <h1 class="layout-xxxlarge layout-text-green"><b>Services</b></h1>
+    <hr style="width:50px;border:5px solid green" class="layout-round">
+    <p>Il tema del lavoro è il progetto di una suite d'albergo: ogni studente è chiamato a sviluppare il progetto di un
+        piccolo appartamento all'interno di un edificio ricettivo.<br>
+      Ogni appartamento misura circa 50 mq e si sviluppa su due livelli con diversi ambienti: zona giorno con cucinotto al piano 1, studio, servizi
+      e camera da letto al piano 2.<br>
+      In aggiunta la realizzazione di uno arredo creato interamente dallo studente.</p>
+
+  </div>
+
+  <!-- Designers -->
+  <div class="layout-container" id="designers" style="margin-top:75px">
+    <h1 class="layout-xxxlarge layout-text-green"><b>Designers</b></h1>
+    <hr style="width:50px;border:5px solid green" class="layout-round">
+    <p>The GOAT obviously</p>
+    <p>Progetto d'esame Fresh Hotel realizzato per il corso di Strumenti e metodi di progetto
+      , anno 2018/19 sezione I2 dipartimento di Design degli Interni, docente Marco Ferrara.
+    </p>
+    <p><b>Designer</b>:</p>
+  </div>
+
+  <!-- The Team -->
+  <div class="layout-row-padding layout-grayscale">
+    <div class="layout-col m4 layout-margin-bottom">
+      <div class="layout-light-grey">
+        <div class="layout-container">
+          <h3>De La Vega Gianluca</h3>
+          <p class="layout-opacity">Student</p>
+          <p>LeBron and Anthony Davis together at LA Lakers... We are chasing the ring.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- layout.CSS Container -->
+<div class="layout-light-grey layout-container layout-padding-32" style="margin-top:75px;padding-right:58px"><p class="layout-right"></div>
+
+<script>
+// Script open/close sidebar
+function layout_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function layout_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
