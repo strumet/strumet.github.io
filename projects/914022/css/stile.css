@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'RALEWAY',sans-serif;
+    font-size: 16px;
+}
+.container {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 5% 5% 0 5%;
+}
+#header {
+    position: relative;
+    height: 90vh;
+    background: url("../img/5.jpg") no-repeat center;
+    background-size: cover;
+}
+#header h1 {
+    margin: 0;
+    padding-top: 30vh;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#header p {
+    font-size: 16px;
+    text-align: center;
+}
+
+#header #arrow {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    bottom: 2vh;
+}
+
+#callToAction {
+    background-color: #e4d7d3;
+    height: 1%;
+    padding-bottom:1%;
+}
+
+
+#callToAction p.parPhone {
+  text color: white;
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+#detail {
+    background: url("../img/Cemento.jpg") no-repeat fixed;
+    background-size:50px cover;
+    color: white;
+}
+#detail div.container {
+    padding-bottom: 100px;
+}
+#detail h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+#contact {
+    padding-bottom: 60px;
+}
+#contact h2 {
+    text-align: center;
+}
+#contact p {
+    text-align: center;
+}
+footer {
+    background-color: #e4d7d3;
+    padding-bottom: 50px;
+}
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
