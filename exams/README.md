@@ -1,3 +1,0 @@
-# Exams
-
-Exams repository
