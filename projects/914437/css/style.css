@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+#container{
+  width: 950px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+#header{
+  background-color: #6AFB92;
+  text-align: center;
+  height: 90px;
+  width:1000PX;
+  float: left;
+}
