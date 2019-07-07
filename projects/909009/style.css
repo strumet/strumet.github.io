@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+    background-image: url("Marmo.jpg");
+    background-size: 100%;
+}
+#body{
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+#Sfondo{
+    border: black 1px solid;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Courier New";
+    background-image: url("Fiori.jpg");
+}
+#Titolo{
+    width: 100%;
+    padding: 0;
+    height: 48px;
+    line-height: 48px;
+    color: white;
+}
+#Lista{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Courier New";
+}
+#vista1{
+    float: left;
+    padding-left: 10%;
+    padding-top: 22px;
+}
+#vista2{
+    float: right;
+    padding-right: 10%;
+}
+#testo{
+    text-align: center;
+    font-size: 25px;
+    font-family: Garamond;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#h1{
+    font-family: Garamond;
+    text-align: center;
+    font-size: 40px;
+}
+#link { text-decoration: none; }
+#link:visited { color: black; }
+
+#box {
+    color: black;
+    border: black 0.7px solid;
+    background-color: white;
+    font-size: 10.6px;
+    width: 105px;
+    margin: auto;
+    padding: 7px;
+    font-family: "Courier New";
+    text-decoration: none;
+    font-weight: bold;
+}
+#box:visited {
+    color: black;
+}
+#box:hover {
+    background-image: url("Fiori_Title.jpg");
+    font-weight: bold;
+    color: oldlace;
+}
