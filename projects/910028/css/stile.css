@@ -1,0 +1,156 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS',sans-serif;
+    font-size: 18px;
+}
+.container {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 5% 5% 0 5%;
+}
+#header {
+    position: relative;
+    height: 90vh;
+    background: url("../img/mare2.jpg") no-repeat fixed;
+    background-size: cover;
+}
+#header h1 {
+    margin: 0;
+    padding-top: 36vh;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#header p {
+    font-size: 18px;
+    text-align: center;
+}
+
+#header p a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 2px #f0f8ff;
+}
+#header p a:hover {
+    background-color: transparent;
+}
+#header #arrow {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    bottom: 2vh;
+}
+#shortDescription {
+    background-color: #white;
+    border-top: dotted 3px #444;
+    padding-bottom: 20px;
+}
+#shortDescription div.short {
+    display: inline-block;
+    width: 30%;
+    margin-left: 2%;
+    vertical-align: text-top;
+    font-size: medium;
+    color: #84c3b3;
+}
+  #shortDescription div.testo {
+    color: #6f6f6f;
+  }
+
+
+#callToAction {
+    background-color: #84c3be;
+    height: 100%;
+    padding-bottom: 5%;
+}
+#callToAction h2 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+
+}
+#callToAction p {
+    text-align: center;
+}
+#callToAction p.parPhone {
+    font-size: 20px;
+    margin-top: 35px;
+}
+#callToAction p a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 2px #777;
+    color: #84c3be;
+}
+#detail {
+    background: #b8b8b8;
+    background-size: cover;
+    color: white;
+}
+#detail div.container {
+    padding-bottom: 25px;
+}
+#detail h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+
+
+#contact {
+    padding-bottom: 50px;
+}
+#contact h2 {
+    text-align: center;
+
+}
+#contact p {
+    text-align: center;
+}
+footer {
+    background-color: #444;
+    padding-bottom: 25px;
+}
+footer p {
+    text-align: center !important;
+    font-size: 12px;
+    color: #aaa;
+}
+@media screen and (orientation: landscape) and (max-width: 768px) {
+    #header h1 {
+        padding-top: 12vh;
+    }
+}
+@media screen and (max-width: 768px) {
+    body p {
+        text-align: justify;
+    }
+    #shortDescription div.short {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+    #shortDescription div.short h2 {
+        margin-bottom: 0;
+    }
+    #shortDescription div.short p {
+        text-align: justify;
+        margin-top: 0;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 600px),
+    screen and (orientation: landscape) and (max-height: 400px) {
+    #header h1 {
+        padding-top: 6vh;
+        font-size: 28px;
+    }
+
+  
+}
