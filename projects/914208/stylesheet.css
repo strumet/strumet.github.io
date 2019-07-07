@@ -2,14 +2,14 @@ body, html {
     margin: 0;
     padding: 0;
     font-size: 17px;
-    background-image: url(file:///Users/martina/Desktop/914208/IMGs/moodbard.png);
+    background-image: url(IMGs/moodbard.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
   }
 
 header {
-  background-image: url(file:///Users/martina/Desktop/914208/IMGs/icone.png);
+  background-image: url(IMGs/icone.png);
   max-width: 100%;
   object-fit: cover;}
 
