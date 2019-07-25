@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+	text-transform: none;
+	font-weight: normal;
+}
+.reveal h1 {
+	font-size: 1.5em;
+	display: inline-block;
+	font-weight: 700;
+	background: rgba(255, 255, 255, 0.9);
+	margin: 0;
+}
+.reveal h2 {
+	font-size: 1em;
+	font-style: italic;
+}
+
+.reveal .subtitle {
+	font-size: .5em;
+	font-style: italic;
+	margin: 0 0 20px;
+}
+
+.reveal strong {
+	font-size: 1.5em;
+}
+
+.reveal .slide-background{
+	background-size: contain;
+}
+ 
+.reveal .note {
+	text-align: left;
+	font-family: monospace, Courier;
+	font-size: .25em;
+	line-height: 1.25em;
+	position: absolute;
+	bottom: 0;
+}
+
+.reveal .nav_div {
+	font-style: italic;
+	position: fixed; bottom: 10px;
+	width: 100%;
+	font-size: 0.8em;
+	line-height: 1.25em;
+}
+
+.reveal .nav_span {
+	margin: 0 30px;
+	display: inline-block;
+}
+
+div.inner_div {
+	margin: 0 auto;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+div.chart_container {
+	margin: 0 auto;
+	position: relative;
+}
+
+.reveal .readable_over {
+	background: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+}
+
+.reveal ul{
+	list-style-type: circle;
+	font-size: .75em;
+}
+
+.reveal ul.readable_over {
+	padding-left: 50px;
+}
+
+.clickable{
+	color: #595959;
+}
+
+.reveal h1.clickable{
+	color: #595959;
+}
+
+.clickable:hover {
+	cursor: pointer;
+}
+
+.reveal section .half_size {
+	font-size: .5em;
+}
+
+.reveal .video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.reveal .video-foreground,
+.reveal .video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.reveal .img_caption {
+	font-size: x-small;
+	line-height: 1.5em;
+	margin: 0;
+}
+.reveal section img {
+	border: none;
+	margin: 0;
+}
+
+.reveal figure {
+	line-height: 0em;
+}
+
+.reveal ul.bibliography {
+	display: block;
+	font-size: .5em;
+	line-height: 1.5em;
+}
+
+#header-left {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+}
+#header-right {
+	position: fixed;
+	top: 0%;
+	right: 0%;
+}
+
+#footer_container {
+  position: fixed;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: center;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-user-select: none;
+}
+
+#footer {
+	flex-grow: 2;
+	background: rgba(255,255,255,.75);
+	color: rgba(0,0,0,.5);
+}
+
+.controls_placeholder {
+  visibility: hidden;
+  background: red;
+  width: 110px;
+  height: 1px;
+  -webkit-user-select: none; }
+
+#controls_ph_left {
+	left: 0px;
+}
+
+#controls_ph_right {
+	right: 0px;
+}
+
+.reveal table.syllabus {
+	font-size: 18px;
+	line-height: 1em;
+	width: 90%;
+}
+
+.reveal table.syllabus div.ex-tempore {
+	background: gold;
+	font-weight: bold;
+}
+
+.reveal table.syllabus td {
+	vertical-align: middle;
+}
+
+.reveal table.syllabus td.date {
+	font-weight: bold;
+	font-size: .75em;
+}

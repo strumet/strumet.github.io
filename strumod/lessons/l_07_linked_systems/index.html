@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Sistemi linkati</title>
+
+		<link rel="stylesheet" href="../../reveal/css/reveal.css">
+		<link rel="stylesheet" href="../../reveal/css/theme/white.css">
+		<link rel="stylesheet" href="../../reveal/style.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../reveal/lib/css/zenburn.css">
+
+		<!-- Chart.js 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js">
+		</script>
+		-->
+		<script src="../../reveal/js/Chart.min.js"></script>
+		
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ?
+				'../../reveal/css/print/pdf.css' : '../../reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+
+		<!-- Header and footer -->
+		<div id="header">
+			<div id="header-left"></div>
+			<div id="header-right"></div>
+		</div>
+		<div id="footer_container">
+			<div id="controls_ph_left" class="controls_placeholder"></div>
+			<div id="footer"></div>
+			<div id="controls_ph_right" class="controls_placeholder"></div>
+		</div>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript">
+			// 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+			var header = $('#header').html();
+			if ( window.location.search.match( /print-pdf/gi ) ) {
+				Reveal.addEventListener( 'ready', function( event ) {
+					$('.slide-background').append(header);
+				});
+			}
+			else {
+				$('div.reveal').append(header);
+		   }
+		</script>
+		<!-- Header and footer end -->
+
+		<div class="reveal">
+			<div id="slides" class="slides"></div>
+		</div>
+
+		<script src="../../reveal/lib/js/head.min.js"></script>
+		<script src="../../reveal/js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - http://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: '../../reveal/plugin/markdown/marked.js' },
+					{ src: '../../reveal/plugin/markdown/markdown.js' },
+					{ src: '../../reveal/plugin/notes/notes.js', async: true },
+					{ src: '../../reveal/plugin/highlight/highlight.js', async: true, callback: function() {
+						hljs.initHighlightingOnLoad(); } },
+					{ src: '../../reveal/plugin/zoom-js/zoom.js', async: true }
+				]
+			});
+		</script>
+		<script src="slides.js"></script>
+		<script src="../../reveal/slides_gen.js"></script>
+		<!--
+		<script src="chart.js"></script>
+		-->
+	</body>
+</html>
