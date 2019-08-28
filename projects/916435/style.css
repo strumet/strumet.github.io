@@ -1,0 +1,93 @@
+html,body{height: 100%}
+body {background:#eee;}
+.header{background: 	#d3d3d3}
+
+{
+	float:right;
+	padding-top: 30px;
+	width: 74px;
+	height: 68px;
+}
+.header_menu{float:right;margin: 0;padding: 0;font-family: 'CALIBRI', sans-serif;}
+.header_menu_item{display:inline-block;}
+.header_menu_item a {color:	#000000;display: block;padding: 5px;}
+.header_menu_item a:hover{background: :#000}
+
+
+
+.cover{height: 80%;
+
+  background-image:url(newyork.jpg);
+background-size: cover;
+
+  background-position: top center;
+  position:relative;
+}
+.cover_filter{
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.7;
+}
+.cover_caption{
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.cover_caption_copy{
+  display: table-cell;
+  vertical-align:middle;
+  text-align: center;
+  color: #fff;
+}
+.cover--servizi{height: 60%}
+.cover--contatti{height: 60%}
+.cover--suite{height: 60%}
+
+h1{
+    font-family: 'Swis721 LtEx BT', sans-serif;;
+}
+h2{
+    font-family: 'Swis721 LtEx BT', sans-serif;;
+}
+
+h3{
+    font-family: 'CALIBRI', sans-serif;;
+}
+P{
+    font-family: 'CALIBRI', sans-serif;;
+}
+.cards{ max-width: 1200px; margin: 40px auto;}
+.card{ width: 22.5%; margin: 0 1.2%; background: 	#d3d3d3;float: left;}
+.card_image{width: 100%;
+height: auto;}
+.card_copy{padding:5px 20px;}
+.card_copy h3{margin-bottom:0}
+
+
+
+.footer{background: #333; padding: 10px; color: #fff; margin-top: 20px;}
+
+.suite{}
+	.suite_copy{max-width: 600px; margin: 0px auto;margin-top: -45px; background: #fff; padding: 25px; position: relative;z-index: 1}
+.servizi{}
+.servizi{max-width: 600px; margin: 0px auto;margin-top: -45px; background: #fff; padding: 25px; position: relative;z-index: 1}
+
+
+
+
+
+
+.clearfix:after {
+  visibility:hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height:0;
+
+}
