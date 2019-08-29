@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>914083</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-grey w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>INDUSTRIAL<br>SUITE</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a>
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Materials</a>
+    <a href="#project" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Project</a>
+   </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-grey w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-grey w3-margin-right" onclick="w3_open()">☰</a>
+  <span>MENU</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>INDUSTRIAL SUITE</b></h1>
+    <img src="Suit.jpg" style="width:100%" height="100%">
+   </div>
+
+  <!-- About -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>About.</b></h1>
+    <p>Industrial suite prende ispirazione dai loft newyorkesi, dai loro materiali e dal loro arredamento. Collocata nella città di Milano è pensata per giovani lavoratori in trasferta.
+Si compone di due piani: entrando troviamo una confortevole zona living, dotata di un’ampia poltrona e di una zona tv (ottima per prendersi una pausa dopo la giornata lavorativa), e una cucina con isola e vista sulla città; al secondo piano ci sono un piccolo studio, dotato di postazione con computer e connessione Wi-Fi, e una camera da letto matrimoniale con vasca ai piedi del letto e bagno open space.  Entrambi gli ambienti del secondo piano dispongono di due terrazzini perfetti per ammirarare la città al tramonto e con le luci della notte.
+    </p>
+  </div>
+
+    <!-- Materials -->
+  <div class="w3-small" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-Black"><b>Materials.</b></h1>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-transparent w3-padding">Mattoni a vista</div>
+        <img src="mattoni.jpg" alt="House" style="width:100%" height="140">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-transparent w3-padding">Intonaco bianco</div>
+        <img src="intonaco.jpg" alt="House" style="width:100%" height="140">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-transparent w3-padding">Ferro</div>
+          <img src="ferro.jpg" alt="House" style="width:100%" height="140">
+      </div>
+    </div>
+
+
+<div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-transparent w3-padding">Betulla</div>
+        <img src="legno.jpg" alt="House" style="width:100%" height="130">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-transparent w3-padding">Pino</div>
+        <img src="pino.jpg" alt="House" style="width:100%" height="130">>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-transparent w3-padding">Acciaio</div>
+        <img src="acciaio.jpg" alt="House" style="width:100%" height="128">
+      </div>
+    </div>
+
+
+
+
+
+   <!-- Photo grid (modal) -->
+   <div class="w3-container" id="project" style="margin-top:75px"> <h1 class="w3-xxxlarge w3-text.black"><b>Project.</b></h1>
+   </div>
+<div class="w3-row-padding">
+    <div class="w3-small">
+      <img src="Cucina.jpg" style="width:99%">
+      <img src="Living.jpg" style="width:99%">
+      <img src="Studio.jpg" style="width:99%">
+    </div>
+
+    <div class="w3-small">
+        <img src="Camera.jpg" style="width:99%">
+      <img src="Bagno.jpg" style="width:99%">
+    </div>
+  </div>
+
+  <!-- End page content -->
+</div>
