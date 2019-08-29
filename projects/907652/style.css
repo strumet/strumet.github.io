@@ -1,0 +1,54 @@
+html,body{height: 100%;}
+body{background: #f0f8ff;}
+
+.header{background: #1e90ff}
+.header__logo{color:#fff; float:left;display: block;padding: 15px;}
+.header__menu{float:right;margin:0; padding:0;}
+.header__menu__item{display: inline-block;}
+.header__menu__item a{color: #fff; display: block;padding: 15px;}
+.header__menu__item a:hover{background: #00bfff}
+
+.header__icon-bar{display: block;float: right;padding: 20px;display: none;}
+.header__icon-bar span{display: block;height: 3px; width: 30px;background: #fff; margin-bottom: 5px;}
+
+.cover{height: 100%;
+  background-image: url("/Users/deboradalmolin/Desktop/Cover Suites of the Gods.png");
+  background-size: cover;
+
+    background-position: top center;
+    position:relative;
+}
+
+.cover_caption{
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.cover_caption_copy{
+  display: table-cell;
+  vertical-align:middle;
+  text-align: center;
+  color: #fff;
+}
+
+
+.footer{background: #1e90ff; padding: 10px; color: #fff;}
+
+.suite{}
+	.suite_copy{max-width: 600px; margin: 0px auto;margin-top: -45px; background: #fff; padding: 25px; position: relative;z-index: 1}
+.servizi{}
+.servizi{max-width: 600px; margin: 0px auto;margin-top: -45px; background: #fff; padding: 25px; position: relative;z-index: 1}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
