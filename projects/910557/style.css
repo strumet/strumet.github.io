@@ -1,0 +1,194 @@
+html,body{height:70%;}
+body {background: #fffff0;
+}
+h1{ font-size:72px;
+font: 76%;
+font-family: 'Triforce', sans-serif;
+font-style: normal;
+font-weight: 300;}
+h2{ font-size:26px;
+font: 76%;
+font-family: 'Triforce', sans-serif;
+font-style: normal;
+font-weight: 300;
+vertical-align: middle;
+text-align: center;
+}
+h3{ font-size:18px;
+font: 76%;
+font-family: 'Triforce', sans-serif;
+font-style: normal;
+font-weight: 300;
+vertical-align: middle;
+text-align: center;
+padding-left: 30px;
+padding-right: 30px
+}
+
+h4{ font-size:15px;
+font: 76%;
+font-family: 'Triforce', sans-serif;
+font-style: normal;
+font-weight: 300;
+vertical-align: middle;
+text-align: center;
+
+}
+p{ font-size:15px;
+font: 76%;
+font-family: 'Cambria', sans-serif;
+font-style: normal;
+font-weight: 300;
+vertical-align: middle;
+text-align: justify;
+padding-left:150px;
+padding-right:150px
+
+}
+
+a{ color: darkseagreen;
+  font-size:15px;
+font: 76%;
+font-family: 'Cambria', sans-serif;
+font-style: normal;
+font-weight: 300;
+vertical-align: top;
+text-align: justify;
+text-decoration: none;}
+
+
+.button{display: inline-block;
+  background: #fffff0;
+   color: #000;
+ padding:15px 30px;
+ border-radius:3px;
+ text-decoration: none
+ }
+
+.header{ background: darkseagreen;
+position: fixed;
+z-index: 100;
+width: 100%}
+.header__logo {color: #fffff0;# float:left; }
+.header__menu{float:left;; margin: 0; padding: 0;}
+.header__menu__item  {display: inline-block;}
+.header__menu__item a{color: #fffff0; display:block;; padding:20px}
+.header__menu__item a:hover{background: #308f5a}
+
+.cover {height:100%;
+background-image: url(legend-of-zelda-backround-4K-games.jpg);
+background-size: cover;
+background-position: center center;
+position: relative;}
+
+.cover__filter {background: #000;
+height: 100%;
+width: 100%;
+position: absolute;
+z-index: 0;
+opacity: 0.5;
+}
+.cover__caption{
+  display: table;
+  height: 100%;
+  width: 100%;
+  color: #fffff0;
+  position: relative;
+  z-index: 1;
+}
+.cover__copy {display: table-cell;
+vertical-align: middle;
+text-align: center;}
+
+
+#first_img {
+  height: auto;
+  width:30%;
+  margin-top: 0%;
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+  display: flex;
+  float: center;
+
+}
+#second_img {
+  height: auto;
+  width:70%;
+  margin-top: 0%;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+  display: flex;
+
+}
+#fifth_img {
+  height: auto;
+  width:70%;
+  margin-top: 0%;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+  display: flex;
+
+}
+#third_img {
+  height: auto;
+  width:70%;
+  margin-top: 0%;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+  display: flex;
+
+}
+#fourth_img {
+  height: auto;
+  width:70%;
+  margin-top: 0%;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+  display: flex;
+
+}
+
+#libreria {
+  height: auto;
+  width:30%;
+  margin-top: 0%;
+  margin-left:35%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+  display: flex;
+
+}
+
+#figcaption {
+font-size: 11px;
+display: block;
+margin-top: auto;
+margin-bottom: 5%;
+margin-left: auto;
+text-align: center;
+color: grey;
+
+}
+
+
+@font-face {
+  font-family: 'Cambria';
+  src: local('Cambria'),url('Cambria.ttf') format('truetype');
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
