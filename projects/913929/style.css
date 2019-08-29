@@ -1,0 +1,26 @@
+body {
+	text-align:center;
+	background-image:sfondo legno.jpg;
+}
+
+p {
+	color:black;
+	text-align:left;
+        font-size:18 px;
+}
+
+#intro {
+	text-align:center;
+}
+
+#pianta1 {
+	text-align:left;
+}
+	
+#pianta2 {
+	text-align:right;
+}	
+
+div {
+	text-align:center;
+}
