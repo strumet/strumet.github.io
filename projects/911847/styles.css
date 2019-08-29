@@ -1,0 +1,133 @@
+h1{color:black;
+text-align: center;
+ font-size: 70px;
+}
+li{list-style-type:none;
+  font-size: 20px;
+line-height: 50px;
+padding-left: 0.3rem;
+color: black;
+}
+li.special{
+        font-weight: bold;
+      color:black;}
+html {font-family:Candara}
+
+a:link, a:visited {text-decoration: none;
+                   color: black;}
+a:hover {color: black;
+        background:#f9bc8e;
+        display: block;
+        width:140px;
+        height: 50px;
+        text-align: center;}
+   list-style:none;     display:inline-table;     padding:10px;}
+.contain {object-fit: contain;}
+.mainnav{position:fixed;
+          float:left ;
+        width: 360px
+        top: inherit;
+        margin: 0.3rem;
+        }
+.paragraph{  width:400px;
+           position:relative;
+           left: 375px;
+           }
+.img1{position: relative;
+      left: 800px;
+      bottom: 500px;
+    }
+
+.plants {display:block;
+         margin:20px auto;
+         text-align: center;
+        width:800px;
+        position:relative;
+       left: 130px; }
+  .line{position:relative;
+        left:130px}
+.colors {position: relative;
+         left: 800px;
+         bottom: 280px;}
+.diagram {display: block;
+           width: 400px;
+        text-align:center;
+        position: relative;
+        left: 600px}
+.container {     display: block;
+          text-align:center;
+         position: relative;
+         left:375px;
+         top:30px;
+          }
+.p1{width: 170px;
+  text-align: left;
+   }
+.p2{width:170px;
+  text-align: left;
+   position: relative;
+   left:220px;
+   bottom: 170px;
+  }
+.p3{width:170px;position: relative;
+  text-align: left;
+left:435px;
+ bottom:490px;}
+.p4{width:170px;position: relative;
+  text-align: left;
+left:650px;
+bottom: 660px;}
+.sauna{position: relative;
+      left: 375px;
+      bottom: 410px;}
+.psauna{position: relative;
+        text-align: left;
+        padding-left: 375px;
+        width: 400px;
+      bottom: 370px;}
+.sauna3d{position: relative;
+      left: 800px;
+      bottom: 760px;}
+.piantasauna{display: block;
+             position: relative;
+             left: 600px;
+           bottom: 850px;}
+.dimensione {
+           transition-duration: 2s;
+           -ms-transition-duration: 2s;
+           -webkit-transition-duration: 2s;
+           -moz-transition-duration: 2s;
+           -o-transition-duration: 2s;
+           transition-property: transform;
+           -ms-transition-property: -ms-transform;
+           -webkit-transition-property: -webkit-transform;
+           -moz-transition-property: -moz-transform;
+           -o-transition-property: -o-transform;
+           overflow:hidden;
+           }
+.dimensione:hover {
+           -ms-transform: scale(5,5);
+           -webkit-transform: scale(5,5);
+           -moz-transform: scale(5,5);
+           -o-transform: scale(5,5);
+           }
+
+
+
+.contacts{  background:#75a3a4;
+  display: block;
+  width:900px;
+  height: 24px;
+  text-align: center;
+  position: relative;
+  left: 375px;
+  font-size: 22px;
+  }
+.map{position: relative;
+     left: 375px;
+   top: 100px;}
+
+.mail{position: relative;
+     left:700px;
+     top:10px;
+   }
