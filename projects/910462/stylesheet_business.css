@@ -1,0 +1,65 @@
+#Title01 {
+  color: rgb(210,230,247) ;
+  text-align: center;
+  font-size: 150px;
+  line-height: 0.2;
+  font-family: monospace;
+}
+
+#Subtitle01 {
+  color: rgb(154,210,239) ;
+  text-align: center;
+  font-size: 70px;
+  line-height: 0.2;
+  font-family: monospace;
+}
+
+#header01 {
+  background-color:rgba(78,170,207,1);
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+
+}
+
+#nav01 {
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  background-color: rgb(167,30,34);
+  line-height: 2.5;
+    color: white;
+}
+
+#section01  {
+  background-color: #86B6C8;
+  font-family: calibri;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+#Progetto01, #Idea01, #Sviluppo_dello_spazio01, #Stile01,{
+  line-height: 1.5;
+  font-size: 40px;
+  font-family: monospace;
+  margin-left: 25px;
+  text-align: center;
+}
+
+#paragraph01,#unlist01, #paragraph02, #paragraph03, #paragraph04, #paragraph05 {
+  font-size: 20px;
+  font-family: calibri;
+  margin-left: 25px;
+  text-align: center;
+}
+
+#paragraph04 {
+  font-size: 35px;
+}
