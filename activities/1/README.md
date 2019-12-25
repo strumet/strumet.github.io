@@ -26,16 +26,9 @@ repository**\*\*.
 Il sito realizzato deve **sempre contenere un file denominato "_index.html_"**
 che costituirà la pagina d'ingresso al sito.
 
-> <sub>\*\* _Per creare una nuova cartella nel proprio repository procedere
-come indicato di seguito:_</sub>   
-> <sub>1) spostarsi sulla cartella in cui si vuole creare la nuova directory (ad
-es: *activities/1*)_</sub>   
-> <sub>2) cliccare su **Create new file**_</sub>   
-> <sub>3) nella pagina che si aprirà digitare il nome della nuova cartella seguito
-da "/" e dal nome di un file temporaneo (ad esempio: "846512/prova")_</sub>   
-> <sub>4) cliccare su **Commit new file** in fondo alla pagina_</sub>   
-> <sub>_Adesso la nuova cartella è creata ed è possibile inserirvi nuovi files (dopo
-aver aggiunto altri file è possibile cancellare il file temporaneo)_</sub>
+> <sub>\*\* _Per creare una nuova cartella nel proprio repository è sufficiente
+cliccare sul tasto Upload files e trascinare la cartella contenente il sito
+dal proprio computer alla finestra del browser._</sub>   
 
 Dopo aver pubblicato i file ed effettuato i commit richiesti effettuare
 un **_pull request_** per segnalare il proprio invio al docente e permettere
